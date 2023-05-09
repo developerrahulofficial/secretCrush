@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>CodePen - WebGL Gooey Effect </title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<h1>Here is something special for you .</h1>
+<div class="form__group"  style="z-index: 11; margin-left: 50px;">
+	<input type="text" id="name" class="form__field" style="z-index: 11;" placeholder="Your Email">
+	<label for="email"  style="z-index: 11;" class="form__label">Please enter your name to see 	😍😍😍 </label>		
+</div>
+
+<section class="container">
+	<article class="tile">
+		<figure class="tile__figure">
+			<img id="myImage" src="images/secret.png" data-hover="images/secret.png" class="tile__image" alt="My image" width="400" height="300" />
+		</figure>
+	</article>
+</section>
+
+<canvas id="stage" style="display: none;"></canvas>
+
+<script src='https://cdnjs.cloudflare.com/ajax/libs/three.js/r124/three.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/dat-gui/0.7.7/dat.gui.min.js'></script>
+<script src='https://unpkg.co/gsap@3/dist/gsap.min.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
